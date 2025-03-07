@@ -1,10 +1,10 @@
 bienvenue
 let a=1
 let b=12
-let s=0
-for(let i=0; i<=10;i++) {
-    let s=a+b;
-    print("la somme de a et b est:",s);
+let s=a+b;
+for(let i=1; i<=10;i++) {
+    s=s+i;
+    console.log("la somme de a et b est:",s);
 }
 
 int somme;
