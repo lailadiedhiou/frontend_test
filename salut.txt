@@ -1,4 +1,12 @@
 bienvenue
+let a=1
+let b=12
+let s=0
+for(let i=0; i<=10;i++) {
+    let s=a+b;
+    print("la somme de a et b est:",s);
+}
+
 int somme;
 for(int i=1; i<=10; i++) {
     somme = somme + i; 
